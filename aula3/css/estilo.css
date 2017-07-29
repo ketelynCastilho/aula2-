@@ -22,17 +22,16 @@ body{
 
 }
 
-#topSeries,#Conteudo,#categoria{
+#coluna1,#Conteudo,#categoria{
   border:1px solid black;
   height: 90px;
-  border-radius: 10px;
+
 }
 
 #maisCategoria{
   border: 1px solid black;
-  border-radius: 10px;
-  height: 90px;
   background-color: black;
+  margin-top: 10px;
 }
 
 #corpoMaisCategoria{
@@ -42,4 +41,19 @@ body{
 
 #tituloMaisCategorias{
   color:white;
+}
+
+#topSeries{
+  border: 1px solid black;
+  background-color: black;
+  margin-top: 10px;
+}
+
+#tituloTopSeries{
+  color:black;
+}
+
+#corpoTopSeries{
+  height: 50px;
+  background-color: white;
 }
